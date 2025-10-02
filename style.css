@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "menu header"
+        "menu content"
+        "menu footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    border: 5px solid black;
+}
+
+.menu {
+  grid-area: menu;
+  background-color: white;
+  color: red;
+  border: 5px solid red;
+  padding: 20px;
+}
+
+.header {
+  grid-area: header;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 255, 55);
+  border: 5px solid rgb(0, 255, 55);
+  padding: 20px;
+}
+
+.content {
+  grid-area: content;
+  background-color: white;
+  color: yellow;
+  border: 5px solid yellow;
+  padding:20px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(255, 255, 255);
+  color: blue;
+  border: 5px solid blue;
+  padding: 20px;
+}
