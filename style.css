@@ -66,15 +66,31 @@ body {
 .content {
   grid-area: content;
   background-color: white;
-  color: yellow;
-  border: 5px solid yellow;
+  color: rgb(0, 0, 0);
+  border: 0px;
   padding:20px;
 }
 
 .footer {
   grid-area: footer;
   background-color: rgb(255, 255, 255);
-  color: blue;
-  border: 5px solid blue;
+  color: rgb(100, 29, 88);
   padding: 20px;
+  height: 35%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.footer .contatos,
+.footer .horario {
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    height: auto; 
+  }
 }
