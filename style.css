@@ -33,6 +33,7 @@ body.home {
   font-family: sans-serif, Arial, serif;
   border: 0;
   padding: 10%;
+
 }
 .menu ul {
   list-style: none;
@@ -163,4 +164,19 @@ body.home {
 .btn-outline:hover,
 .btn-outline:focus {
   background-color: rgba(255, 255, 255, 0.08);
+}
+
+table {
+  border: solid 1px rgb(255, 157, 239)
+}
+table thead th {
+  background-color: rgb(255, 157, 239);
+  color: white;
+}
+
+table tbody tr:nth-child(even) td {
+  background-color: rgba(255, 206, 247, 0.3);
+}
+table tbody tr:hover td {
+  background-color: rgba(255, 206, 247, 0.8);
 }
