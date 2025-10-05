@@ -9,7 +9,7 @@ body {
         "menu header"
         "menu content"
         "menu footer";
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 20% 1fr;
     grid-template-rows: auto 1fr auto;
     height: 100vh;
     border: 5px solid black;
@@ -48,7 +48,7 @@ body {
   color: rgb(0, 255, 55);
   border: 0px;
   padding: 0px;
-  height: 100px;
+  height: 170px;
 }
 .header {
   position: relative; 
